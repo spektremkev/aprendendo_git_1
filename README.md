@@ -3,6 +3,8 @@ Testendo o quite na pratica untilisando o livro do Linux torvalds
 usage: git config [<options>]
 
 "Git init" começa o repositorio.
+"Git status" mostrara os arquivos que não foram traqueados pelo git.
+
 
 
 
@@ -71,3 +73,26 @@ Other
     --show-origin         show origin of config (file, standard input, blob, command line)
 
     --default <value>     with --get, use default value when missing entry
+
+Junto como o "git add -A" comomado no temos abaxo.
+    git add [<options>] [--] <pathspec>...
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
