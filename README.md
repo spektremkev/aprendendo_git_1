@@ -4,7 +4,9 @@ usage: git config [<options>]
 
 "Git init" começa o repositorio.
 "Git status" mostrara os arquivos que não foram traqueados pelo git.
-
+"Git add -A" Ele adicionara as 
+"Git commit -m" - "primeiro commit de teste " - Adicionara as alteraçoes dps ao reositorio local
+"Git branch" me retornara todos o "branch" na pasta do arquivoem que estamos trabalhado 
 
 
 
