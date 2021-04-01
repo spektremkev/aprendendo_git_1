@@ -12,13 +12,19 @@ usage: git config [<options>]
 
 "Git commint -a" -  ira faser a adção a o repostitorio utilisando o "git add -A"
 
-"Git branch" me retornara todos o "branch" na pasta do arquivoem que estamos trabalhado 
+"Git branch" me retornara todos o "branch" na pasta do arquivo em que estamos trabalhado 
 
 "Git log " me mostra o indereço do commit.
 
 "git reset" existe tres tipos de git recete e estes são "git reset --soft" - "git reset --mixed" - "git reset --hard" todo este devem ser seguitod da seguite endereço do commit como esta exemplo "git reset - hard '03024fe9ad22290b6f1cb3892a40d638a6004a57'"
 ---------------------------------------------------------------------------------------------------------------
 Vamos trabalhar com diferentes tipos de 'branch'  
+
+"Git branch" me retornara todos o "branch" na pasta do arquivo em que estamos trabalhado 
+
+Para a criação de um novo branch e bem simples basta escrever "Git branch" seguido do nome do nomo branch desta forma "Git branch novo 'bransh' "
+
+
 
 
 
