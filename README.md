@@ -37,8 +37,16 @@ Para a criação de um novo branch e bem simples basta escrever "Git branch" seg
 "git diff nomedoarquivo .xxx " mostrar somente o que foi alterado arquivo
 
 "git diff HEAD -- nomedoarquivo .xxx" não ira altera o arquivo que voi alterado 
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+Enviando o repositpriao para git rub
 
+"git remote add origin 'link do repositorio'" para cogicionar um repositorio online, para ve se funcionou "git remote "
+
+para mais mais detalhes do repositorio eu usso o comando " git remote -v"
+
+para faser o envio do cos comites usamos o " git push -u origin master "
+
+alteraçao teste git hub
 
 
 
