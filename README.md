@@ -24,6 +24,7 @@ Vamos trabalhar com diferentes tipos de 'branch'
 
 Para a criação de um novo branch e bem simples basta escrever "Git branch" seguido do nome do nomo branch desta forma "Git branch novo 'bransh' "
 
+"git checkout master" e utilizado para alterar de um "branch" 
 
 
 
