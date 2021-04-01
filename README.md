@@ -16,7 +16,8 @@ usage: git config [<options>]
 
 "Git log " me mostra o indereço do commit.
 
-"git reset" existe tres tipos de git recete e estes são "git reset --soft" - "git reset --mixed" - "git reset --hard" todo este devem ser seguitod da seguite endereço do commit como esta exemplo "git reset - hard '03024fe9ad22290b6f1cb3892a40d638a6004a57'"
+"git reset" existe tres tipos de git recete e estes são "git reset --soft" - "git reset --mixed" - "git reset --hard" 
+todo este devem ser seguitod da seguite endereço do commit como esta exemplo "git reset - hard '03024fe9ad22290b6f1cb3892a40d638a6004a57'"
 ---------------------------------------------------------------------------------------------------------------
 Vamos trabalhar com diferentes tipos de 'branch'  
 
@@ -26,12 +27,19 @@ Para a criação de um novo branch e bem simples basta escrever "Git branch" seg
 
 "git checkout master" e utilizado para alterar de um "branch" 
 
+-----------------------------------------------------------------------------------------------------------------
+
 "git diff " me mostrar o que foi alterado no as arquivos antes dele serem comitados 
 
 
 "git diff --nome-only" mostrar somente o nome dos arquivos que foram alterados 
 
 "git diff nomedoarquivo .xxx " mostrar somente o que foi alterado arquivo
+
+"git diff HEAD -- nomedoarquivo .xxx" não ira altera o arquivo que voi alterado 
+---------------------------------------------------------------------------------------------------------------------
+
+
 
 
 Config file location
