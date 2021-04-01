@@ -26,7 +26,12 @@ Para a criação de um novo branch e bem simples basta escrever "Git branch" seg
 
 "git checkout master" e utilizado para alterar de um "branch" 
 
+"git diff " me mostrar o que foi alterado no as arquivos antes dele serem comitados 
 
+
+"git diff --nome-only" mostrar somente o nome dos arquivos que foram alterados 
+
+"git diff nomedoarquivo .xxx " mostrar somente o que foi alterado arquivo
 
 
 Config file location
