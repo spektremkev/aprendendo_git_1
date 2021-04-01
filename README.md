@@ -3,10 +3,17 @@ Testendo o quite na pratica untilisando o livro do Linux torvalds
 usage: git config [<options>]
 
 "Git init" começa o repositorio.
+
 "Git status" mostrara os arquivos que não foram traqueados pelo git.
+
 "Git add -A" Ele adicionara as 
+
 "Git commit -m" - "primeiro commit de teste " - Adicionara as alteraçoes dps ao reositorio local
+
+"Git commint -am" -  ira faser a adção a o repostitorio utilisando o "git add -A"
+
 "Git branch" me retornara todos o "branch" na pasta do arquivoem que estamos trabalhado 
+"git reset" existe 
 
 
 
