@@ -10,10 +10,14 @@ usage: git config [<options>]
 
 "Git commit -m" - "primeiro commit de teste " - Adicionara as alteraçoes dps ao reositorio local
 
-"Git commint -am" -  ira faser a adção a o repostitorio utilisando o "git add -A"
+"Git commint -a" -  ira faser a adção a o repostitorio utilisando o "git add -A"
 
 "Git branch" me retornara todos o "branch" na pasta do arquivoem que estamos trabalhado 
-"git reset" existe 
+
+"Git log " me mostra o indereço do commit.
+
+"git reset" existe tres tipos de git recete e estes são "git reset - soft" - "git reset - mixed" - "git reset - hard" todo este devem ser seguitod da seguite endereço do commit como esta exemplo "git reset - hard '03024fe9ad22290b6f1cb3892a40d638a6004a57'"
+
 
 
 
