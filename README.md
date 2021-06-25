@@ -138,3 +138,123 @@ Junto como o "git add -A" comomado no temos abaxo.
                           read pathspec from file
     --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
 
+> git rev-parse --git-dir
+
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --global user.email
+> git config --local branch.main.github-pr-owner-number
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] e5fb28694251d36100b2ab5a3820f08728342dff
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z e5fb28694251d36100b2ab5a3820f08728342dff
+> git show -s --format=%an <%ae> [%ai] 15e24b03b30857146e8a6b703aaa0a2469dddf9e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 15e24b03b30857146e8a6b703aaa0a2469dddf9e
+> git show -s --format=%an <%ae> [%ai] 2194d0724fe5eec6843718d204413a877b22fb79
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 2194d0724fe5eec6843718d204413a877b22fb79
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :Rails-test/railsTest/bin/yarn
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\bin\yarn
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Rails-test/railsTest/app/jobs/application_job.rb
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\app\jobs\application_job.rb
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Rails-test/railsTest/app/javascript/channels/index.js
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\app\javascript\channels\index.js
+> git show --textconv :Rails-test/railsTest/app/javascript/channels/consumer.js
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\app\javascript\channels\consumer.js
+> git show --textconv :Rails-test/railsTest/app/javascript/channels/index.js
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\app\javascript\channels\index.js
+> git show --textconv :Rails-test/railsTest/app/mailers/application_mailer.rb
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\app\mailers\application_mailer.rb
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Rails-test/railsTest/app/assets/config/manifest.js
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\app\assets\config\manifest.js
+> git check-ignore -v -z --stdin
+> git show --textconv :Rails-test/railsTest/app/assets/images/.keep
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\app\assets\images\.keep
+> git check-ignore -v -z --stdin
+> git show --textconv :Rails-test/railsTest/app/assets/stylesheets/application.css
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\app\assets\stylesheets\application.css
+> git show --textconv :Rails-test/railsTest/.gitignore
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\.gitignore
+> git show --textconv :Rails-test/railsTest/Gemfile.lock
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\Gemfile.lock
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- e:\Ruby\Rails-test\railsTest\tmp\cache\bootsnap\compile-cache\00\1d811dfddae2f5
+> git show --textconv :Rails-test/railsTest/README.md
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
+error: 'Rails-test/railsTest/' does not have a commit checked out
+fatal: adding files failed
+> git status -z -u
+> git ls-files --stage -- E:\Ruby\Rails-test\railsTest\README.md
+> git symbolic-ref --short HEAD
+> git show --textconv :Rails-test/railsTest/README.md
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
